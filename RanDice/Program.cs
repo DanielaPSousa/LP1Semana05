@@ -10,6 +10,7 @@ namespace RanDice
             int s= int.Parse(args[1]);
 
             int all= 0;
+            Random w= new Random(s);
         }
     }
 }
