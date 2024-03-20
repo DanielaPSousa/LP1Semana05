@@ -16,6 +16,7 @@ namespace RanDice
             {
                 all += w.Next(1, 7);
             }
+            Console.WriteLine(all);
         }
     }
 }
