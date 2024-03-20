@@ -8,6 +8,8 @@ namespace RanDice
         {
             int d= int.Parse(args[0]);
             int s= int.Parse(args[1]);
+
+            int all= 0;
         }
     }
 }
