@@ -11,6 +11,11 @@ namespace RanDice
 
             int all= 0;
             Random w= new Random(s);
+
+            for(int i = 0; i < n; i++)
+            {
+                all += w.Next(1, 7);
+            }
         }
     }
 }
