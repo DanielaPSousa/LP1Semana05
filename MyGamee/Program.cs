@@ -4,9 +4,18 @@ namespace MyGamee
 {
     class Program
     {
-        static void Main(string[] args)
+        public class MyGamee
         {
-            Console.WriteLine("Hello, World!");
+            private string name;
+            private float shield;
+            private float health;
+
+            public Enemy(string name)
+            {
+                this.name= name; 
+                health= 100;
+                shield= 0;
+            }
         }
     }
 }
