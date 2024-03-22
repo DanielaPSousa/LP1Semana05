@@ -13,6 +13,18 @@ namespace MyGamee
             {
                 Console.Write($"Nome do inimigo {i + 1}:");
                 string name= Console.ReadLine;
+                Enemies[i]= new Enemy (name);
+            }
+            foreach (enemies in Enemies)
+            {
+                e.TakeDamage(50);
+                e.PickupPowerUp(PowerUp.Shield, 25);
+                e.PickupPowerUp(PowerUp.Health, 25);
+                string name = e.GetName();
+                float health = e.GetHealth();
+                float shield = e.GetShield();
+
+                Console.WriteLine($"{name}{shield}{health}");
             }
         }
     }
