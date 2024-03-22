@@ -7,6 +7,7 @@ namespace MyGamee
     private string name;
     private float shield;
     private float health;
+    private static int totalPowerUps = 0;
 
     public Enemy(string name)
     {
@@ -52,6 +53,10 @@ namespace MyGamee
             shield = Math.Min(100, shield + value);
         }
     }
-
+    public static int GettotalPowerUps()
+    {
+        return totalPowerUps
+    }
+    totalPowerUps ++
     }   
 }
