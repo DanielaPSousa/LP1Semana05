@@ -47,6 +47,10 @@ namespace MyGamee
         {
             health= Math.Min(100, health + value);
         }
+        else if (powerUp == PowerUp.Shield)
+        {
+            shield = Math.Min(100, shield + value);
+        }
     }
 
     }   
