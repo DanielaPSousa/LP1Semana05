@@ -29,6 +29,17 @@ namespace MyGamee
                 if (health < 0) health= 0;
             }
         }
-            
+        public float GetHealth()
+        {
+            return health;
+        }
+        public float GetShield()
+        {
+            return shield;
+        }
+        private void SetName(string newName)
+        {
+            name= newName;
+        }    
     }   
 }
