@@ -37,7 +37,7 @@ namespace MyGamee
         {
             return shield;
         }
-        private void SetName(string newName)
+        public void SetName(string newName)
         {
             name= newName;
         }    
